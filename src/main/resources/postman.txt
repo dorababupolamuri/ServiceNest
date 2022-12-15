@@ -1,0 +1,22 @@
+POST
+http://localhost:9898/create
+
+{
+	"prodCode" : "PEN",
+	"baseCost" : 200.50
+}
+<product>
+	<prodCode>TV</prodCode>
+	<baseCost>23.36</baseCost>
+</product>
+==========================================
+GET
+http://localhost:9898/all
+Header: Accept : application/xml
+==========================================
+DELETE
+http://localhost:9898/remove?id=5
+==========================================
+GET
+http://localhost:9898/one?id=4
+
